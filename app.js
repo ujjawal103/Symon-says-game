@@ -13,7 +13,7 @@ highscore.innerText=`HighScore : ${finalScore}`;
 
 // starting game ---> by click anywhere at whole document. 
 
-document.addEventListener("keypress",function(){
+document.addEventListener("click",function(){
     if(gameStart== false){
      console.log("game started ");
      gameStart= true;
